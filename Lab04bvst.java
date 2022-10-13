@@ -42,19 +42,23 @@ public class Lab04bvst extends Applet
         g.drawLine(850,350,625,450);
         g.drawLine(850,350, 750,575);
         g.drawLine(625,450, 750,575);
-        g.drawOval(625,350,250,250);
+        g.drawOval(623,311,265,265);
 
 
 
-        // DRAW INSCRIBED/CIRCUMSCRIBED TRIANGLE
+        g.fillArc(425,400,100,100,45,270);
+        g.fillArc(300,400,100,100,135,-270);
+        g.fillArc(362,338,100,100,45,-270);
+        g.fillArc(362,463,100,100,-45,270);
 
 
 
-        // DRAW APCS
+        //APCS
 
 
 
-        // DRAW PACMEN FLOWER
+
+
 
 
 
