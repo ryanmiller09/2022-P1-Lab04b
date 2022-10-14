@@ -46,14 +46,30 @@ public class Lab04bvst extends Applet
 
 
 
-        g.fillArc(425,400,100,100,45,270);
-        g.fillArc(300,400,100,100,135,-270);
-        g.fillArc(362,338,100,100,45,-270);
-        g.fillArc(362,463,100,100,-45,270);
+        g.fillArc(475,400,100,100,45,270);
+        g.fillArc(350,400,100,100,135,-270);
+        g.fillArc(412,338,100,100,45,-270);
+        g.fillArc(412,463,100,100,-45,270);
 
 
 
-        //APCS
+        g.fillRect(25,525,25,125);
+        g.fillRect(50,525,25,25);
+        g.fillRect(50,575,25,25);
+        g.fillRect(75,525,25,125);
+        g.fillRect(125,525,25,125);
+        g.fillRect(150,525,25,25);
+        g.fillRect(150,575,25,25);
+        g.fillRect(175,525,25,75);
+        g.fillRect(225,525,25,125);
+        g.fillRect(250,525,50,25);
+        g.fillRect(250,625,50,25);
+        g.fillRect(325,525,25,75);
+        g.fillRect(350,525,50,25);
+        g.fillRect(350,575,50,25);
+        g.fillRect(375,600,25,50);
+        g.fillRect(325,625,50,25);
+
 
 
 
