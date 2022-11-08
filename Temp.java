@@ -1,13 +1,21 @@
-public class Temp {
-    public static void main(String args[]){
+import java.applet.Applet;
+import java.awt.*;
+import java.util.Random;
+public class Temp extends Applet {
+    public void paint(Graphics g) {
+        for (int k = 0; k <= 100; k++) {
+        Random rand = new Random();
 
-        for (int k=0; k<=100; k+=3){
-        int sum = 100 - k;
-        System.out.print(sum + ", ");
+        int x1 = rand.nextInt(1000);
+        int y1 = rand.nextInt(650);
+        int width = rand.nextInt(400);
+        int height = rand.nextInt(400);
 
 
 
+            g.drawRect(x1, y1, width, height);
         }
-
     }
+
 }
+
